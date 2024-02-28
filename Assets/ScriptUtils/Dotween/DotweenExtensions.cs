@@ -1,6 +1,6 @@
 ﻿using DG.Tweening;
 
-namespace ScriptUtils.Dotween
+namespace Utilities.ScriptUtils.Dotween
 {
     public static class DotweenExtensions
     {

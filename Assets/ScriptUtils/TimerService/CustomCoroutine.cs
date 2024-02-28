@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ScriptUtils.TimerService
+namespace Utilities.ScriptUtils.TimerService
 {
     public class CustomCoroutine
     {

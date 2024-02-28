@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ScriptUtils.Math
+namespace Utilities.ScriptUtils.Math
 {
     public static class EqualsUtility
     {

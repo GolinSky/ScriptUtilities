@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ScriptUtils.EditorSerialization
+namespace Utilities.ScriptUtils.EditorSerialization
 {
     public static class UnityDictionaryFactory
     {

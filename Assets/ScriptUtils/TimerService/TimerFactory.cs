@@ -1,4 +1,4 @@
-namespace ScriptUtils.TimerService
+namespace Utilities.ScriptUtils.TimerService
 {
     public static class TimerFactory
     {

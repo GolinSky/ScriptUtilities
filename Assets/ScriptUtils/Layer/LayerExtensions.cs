@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ScriptUtils.Layer
+namespace Utilities.ScriptUtils.Layer
 {
     public static class LayerExtensions
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ScriptUtils.TimerService
+namespace Utilities.ScriptUtils.TimerService
 {
     public class TimerPoolService
     {

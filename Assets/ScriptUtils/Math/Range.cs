@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace ScriptUtils.Math
+namespace Utilities.ScriptUtils.Math
 {
     public abstract class Range<TValue>  
     {

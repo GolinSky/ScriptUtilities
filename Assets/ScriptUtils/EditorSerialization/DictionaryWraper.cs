@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ScriptUtils.EditorSerialization
+namespace Utilities.ScriptUtils.EditorSerialization
 {
     [Serializable]
     public class DictionaryWrapper<TKey, TValue>

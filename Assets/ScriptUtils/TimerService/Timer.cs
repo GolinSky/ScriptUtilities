@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace ScriptUtils.TimerService
+namespace Utilities.ScriptUtils.TimerService
 {
     public class Timer : ITimer
     {

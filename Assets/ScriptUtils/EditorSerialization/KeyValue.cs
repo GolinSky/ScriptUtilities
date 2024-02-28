@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace ScriptUtils.EditorSerialization
+namespace Utilities.ScriptUtils.EditorSerialization
 {
     public interface IKeyValue<TKey, TValue>
     {
