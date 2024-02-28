@@ -15,3 +15,7 @@ https://github.com/GolinSky/ScriptUtilities.git?path=/Assets/ScriptUtils/EditorS
 Layer Extension Package 
 Install
 https://github.com/GolinSky/ScriptUtilities.git?path=/Assets/ScriptUtils/Layer
+
+Time Extension Package 
+Install
+https://github.com/GolinSky/ScriptUtilities.git?path=/Assets/ScriptUtils/Time
