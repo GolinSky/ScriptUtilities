@@ -1,4 +1,4 @@
-namespace Utilities.ScriptUtils.TimerService
+namespace Utilities.ScriptUtils.Time
 {
     public interface ITimer
     {

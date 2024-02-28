@@ -1,14 +1,14 @@
 using UnityEngine;
 
-namespace Utilities.ScriptUtils.TimerService
+namespace Utilities.ScriptUtils.Time
 {
-    public class Timer : ITimer
+    internal class Timer : ITimer
     {
         private float _delay;
         private float _timer;
         private bool _isComplete;
         
-        private float CurrentTime => Time.time;
+        private float CurrentTime => UnityEngine.Time.time;
         public float TimeLeft => IsComplete ? default : Mathf.Abs(CurrentTime - _timer);
         public bool IsComplete => _timer < CurrentTime;
 

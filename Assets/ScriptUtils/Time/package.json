@@ -1,0 +1,12 @@
+{
+  "name": "com.script-utils.time",
+  "version": "1.0.0",
+  "displayName": "Script Utilities for Timer, native coroutines",
+  "description": "Extensions for Timer, native coroutines",
+  "unity": "2022.3",
+  "author": {
+    "name": "Alex GolinSky",
+    "email": "golinsky97@gmail.com",
+    "url": "https://github.com/GolinSky/ScriptUtilities"
+  }
+}
