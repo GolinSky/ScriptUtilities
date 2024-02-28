@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace EmpireAtWar.ScriptUtils.EditorSerialization
+namespace ScriptUtils.EditorSerialization
 {
     public interface IKeyValue<TKey, TValue>
     {

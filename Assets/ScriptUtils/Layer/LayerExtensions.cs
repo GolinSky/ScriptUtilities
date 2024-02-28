@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace EmpireAtWar.ScriptUtils.Layer
+namespace ScriptUtils.Layer
 {
     public static class LayerExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using DG.Tweening;
 
-namespace EmpireAtWar.ScriptUtils.Dotween
+namespace ScriptUtils.Dotween
 {
     public static class DotweenExtensions
     {
