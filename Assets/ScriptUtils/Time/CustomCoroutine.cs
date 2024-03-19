@@ -10,12 +10,12 @@ namespace Utilities.ScriptUtils.Time
 
         private bool isFinished;
 
-        public CustomCoroutine(Action action, float delay)
+        internal CustomCoroutine(Action action, float delay)
         {
             Init(action, delay);
         }
 
-        public void Init(Action action, float delay)
+        internal void Init(Action action, float delay)
         {
             this.action = action;
             if (timer == null)
@@ -30,7 +30,7 @@ namespace Utilities.ScriptUtils.Time
             isFinished = false;
         }
 
-        public void Update()
+        internal void Update()
         {
             if(isFinished) return;
             if (timer.IsComplete)
@@ -39,6 +39,16 @@ namespace Utilities.ScriptUtils.Time
                 isFinished = true;
                 OnFinished?.Invoke(this);
             }
+        }
+
+        public void Release(bool invokeCallback = false)
+        {
+            if (invokeCallback)
+            {
+                action?.Invoke();
+            }
+            isFinished = true;
+            OnFinished?.Invoke(this);
         }
     }
 }

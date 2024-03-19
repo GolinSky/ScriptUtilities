@@ -9,9 +9,11 @@ namespace Utilities.ScriptUtils.Time
 
         private Queue<CustomCoroutine> pool = new Queue<CustomCoroutine>();
 
-        public void Invoke(Action action, float delay)
+        public CustomCoroutine Invoke(Action action, float delay)
         {
-            customCoroutines.Add(Construct(action, delay));
+            CustomCoroutine customCoroutine = Construct(action, delay);
+            customCoroutines.Add(customCoroutine);
+            return customCoroutine;
         }
 
         public void Update()

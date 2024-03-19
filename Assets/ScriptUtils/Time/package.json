@@ -1,6 +1,6 @@
 {
   "name": "com.script-utils.time",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Script Utilities for Timer, native coroutines",
   "description": "Extensions for Timer, native coroutines",
   "unity": "2022.3",
