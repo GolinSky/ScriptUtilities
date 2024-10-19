@@ -1,6 +1,6 @@
 {
   "name": "com.script-utils.math",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Script Utilities for Math calculation",
   "description": "Extensions for Math calculation",
   "unity": "2022.3",

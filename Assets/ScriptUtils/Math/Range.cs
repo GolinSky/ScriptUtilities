@@ -11,6 +11,12 @@ namespace Utilities.ScriptUtils.Math
 
 	    public abstract bool IsInRange(TValue value);
 	    public abstract TValue Clamp(TValue value);
+
+	    public virtual void SetValue(Range<TValue> range)
+	    {
+		    Min = range.Min;
+		    Max = range.Max;
+	    }
     }
 
     [Serializable]
