@@ -5,8 +5,8 @@ namespace Utilities.ScriptUtils.Time
         bool IsComplete { get; }
         float TimeLeft { get; }
         void StartTimer();
-        void ChangeDelay(float newDelay);
-        void AppendTime(float appendDelay);
-        void ForceFinish();
+        ITimer ChangeDelay(float newDelay);
+        ITimer AppendTime(float appendDelay);
+        ITimer ForceFinish();
     }
 }
